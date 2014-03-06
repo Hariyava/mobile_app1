@@ -12,14 +12,30 @@
 	
 	<div data-role="page">
 	
-		<div data-role="panel" id="mypanel"></div>
+		<div data-role="panel" id="mypanel">
+			<div data-role="tabs" id="tabs">
+  				<div data-role="navbar">
+    				<ul>
+      				<li><a href="#hit_list" data-ajax="false">Hit List</a></li>
+      				<li><a href="#free_music" data-ajax="false">Free Music</a></li>
+      				<li><a href="#find_music" data-ajax="false">Find Music</a></li>
+      				<li><a href="#my_downloads" data-ajax="false">My Downloads</a></li>
+      				<li><a href="#user" data-ajax="false">User</a></li>
+    				</ul>
+  			</div>
+		</div>
+	</div>
 
 		<div data-role="header">
-		<h1>Page Title</h1></div>
+			<a href="#mypanel" class="ui-btn ui-shadow ui-corner-all ui-icon-grid ui-btn-icon-notext ui-btn-inline">Menu</a></a>
+			<h1>Keerthi</h1>
+		</div>
 		<div role="main" class="ui-content">
 			<input type="text" />
 			<input type="password" />
-			<button>Login</button></div>
+			<button>Login</button>
+		</div>
+	</div>
 	
 
 </body>
