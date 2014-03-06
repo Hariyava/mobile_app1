@@ -2,3 +2,7 @@ a {
   text-decoration:none;
   color:dodgerblue;
 }
+
+#mypanel {
+  width: 70%;
+}
